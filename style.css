@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background-color:rgb(5, 5, 56);
+    color:#B3B8CD
+}
+
+li{
+    list-style: none;
+}
+
+section{
+    width:32rem;
+    position:absolute;
+    top:50%;
+    right:50%;
+    transform: translate(50%,-50%);
+    box-shadow: -7px 7px 7px -2px rgb(155, 201, 28);
+}
+.personal span{
+    background-color: #FEBB0B;
+    color: rgb(4, 4, 34);
+    border:1px solid #FEBB0B;
+    border-radius: 0.8rem;
+    padding:1rem 1rem;
+    position: absolute;
+    top:1.5rem;
+    left:2rem;
+}
+
+.personal{
+    background-color: rgb(25, 25, 48);
+    padding:1.5rem 0rem 2rem 0rem ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.personal img{
+    width:12rem;
+    display:block;
+    margin: auto;
+    border: 2px solid rgb(78, 78, 165);
+    border-radius: 10rem;
+    
+}
+
+.personal .name{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    
+}
+
+.personal .country{
+    text-align: center;
+    font-size: 1.5srem;
+    margin:0.2rem;
+    
+}
+
+.personal .stack{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    
+}
+.personal .button{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+.personal button{
+    border:1px solid aqua;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.personal button:hover{
+    cursor: pointer;
+}
+
+
+.personal button.primary{
+background-color: aqua;
+color: rgb(7, 7, 34);
+margin-right: 1rem;
+}
+
+.personal button.secondary{
+background-color: transparent;
+color: rgb(138, 138, 175);
+margin-left: 1rem;
+}
+
+.social{
+    text-align: center;
+}
+
+.social img{
+width:2.3rem;
+height: 2.3rem;
+display: inline-block;
+margin-top: 1.4rem;
+margin-left: 1.3rem;
+}
+
+.social a:hover{
+    color:yellow;
+}
+
+
+
+.skill{
+    background-color: rgb(6, 6, 41);
+    padding: 1.6rem 1.2rem;
+
+}
+
+.skill h3{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.skill li{
+    display: inline-block;
+    font-size: 1.3rem;
+    border: 2px solid rgb(26, 26, 44);
+    padding: 0.5rem 1.4rem;
+    border-radius: 0.4rem;
+    margin: 0.2rem;
+}
+
